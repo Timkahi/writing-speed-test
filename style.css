@@ -9,8 +9,43 @@ header {
 }
 main {
     display: flex;
+    gap: 20px;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
     background-color: rgb(216, 216, 216);
     width: 400px;
     height: 400px;
     padding: 10px;
+}
+.truPresKey {
+    color: #2bcc2b;
+    font-size: 20px;
+    width: 12px;
+}
+.falsePresKey {
+    background-color: red;
+    font-size: 20px;
+}
+.backColor {
+    background-color: rgb(112, 234, 112);
+}
+.normalText {
+    font-size: 20px;
+    display: inline-block;
+    width: 12px;
+}
+.block-with-speed {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100px;
+    width: 200px;
+    background-color:rgb(112, 234, 112);
+    padding: 10px;
+}
+.speed, .quolaty {
+    font-size: 20px;
 }
