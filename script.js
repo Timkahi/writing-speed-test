@@ -17,10 +17,10 @@ function quality () {
 }
 
 function setInt () {
-    if (start === 2) {
-        clearTimeout(t)
-    }
-  const t= setTimeout(setInt, 1000)
+   const t= setTimeout(setInt, 1000)
+   if (start === 2) {
+    clearTimeout(t)
+   }
    speed = calcSpeed()
    console.log(speed)
    speedBlock.textContent = `${speed} зн/мин`
@@ -29,9 +29,9 @@ function setInt () {
 
 function createElevents (text) {
     for (let word of text) {
-        let span = document.createElement('div')
+        let span = document.createElement('span')
         span.classList.add('normalText')
-        span.textContent = word
+        span.textContent = `${word}`
         mainBlock.append(span)
     }
 }
