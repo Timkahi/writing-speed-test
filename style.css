@@ -56,6 +56,11 @@ main {
     padding: 10px;
     border-radius: 10px;
 }
-.speed, .quolaty {
+.speed, .quolaty, .ref {
     font-size: 20px;
+}
+.ref {
+    background-color:rgb(200, 255, 200);
+    cursor: pointer;
+    border-radius: 10px;
 }
