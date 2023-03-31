@@ -22,18 +22,6 @@ let textToWrite = string[randomVal()]
 function randomVal () {
     return Math.floor(Math.random() * 5);
 }
-/*const addData = async () => {
-    try {
-        const url = 'https://raw.githubusercontent.com/Timkahi/json/main/texts.json';
-        const res = await fetch(url);
-        const data = await res.json()
-        return this.please = data.text[randomVal()]
-    }
-    catch {
-        return string
-    }
-}
-console.log(addData())*/
 
 function calcSpeed () {
     return Math.round(((truType)/timeSec)*60)
